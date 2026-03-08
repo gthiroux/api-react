@@ -17,6 +17,7 @@ const apiFetch = async (
     if (token) options.headers.Authorization = `Bearer ${token}`;
 
     const response = await fetch(`https://dummyjson.com/${url}`, options);
+    // const response = await fetch(`https://dummyjson.com/${url}`, options);
 
     let json = null;
     try {

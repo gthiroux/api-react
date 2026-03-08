@@ -1,0 +1,29 @@
+.Home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem;
+    border: solid 3px rebeccapurple;
+    border-radius: 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.result-api {
+    margin: 1rem;
+    width: 100%;
+    height: auto;
+
+
+}
